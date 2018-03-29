@@ -28,3 +28,7 @@ function New-Greeting() {
 # Example:
 # 'a'..'z' | New-Greeting
 # Greet personz 'a'-'z' and pass the value from the pipeline
+
+
+# About topics:
+# New-MarkdownAboutHelp -OutputFolder ./out/ -AboutName greeting
