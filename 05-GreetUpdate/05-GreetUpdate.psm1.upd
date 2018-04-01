@@ -11,3 +11,6 @@ function New-Greeting() {
         $Greeting + " " + $Name
     }
 }
+
+# Note the default value in the generated markdown will not be populated
+# Bug?
