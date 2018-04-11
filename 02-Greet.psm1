@@ -12,8 +12,7 @@ function New-Greeting() {
 }
 
 # --------------------
-# New-MarkdownHelp -Command New-Greeting -OutputFolder ./out/ -Force
-# New-ExternalHelp -OutputPath en-US -Path ./out/New-Greeting.md
+# > New-MarkdownHelp -Command New-Greeting -OutputFolder ./out/ -Force
 # --------------------
 
 # Synopsis: 
@@ -22,13 +21,14 @@ function New-Greeting() {
 # Description:
 # Greet people with Hello
 
+# Example:
+# 'a'..'d' | New-Greeting
+# Greet personz 'a'-'d' and pass the value from the pipeline
+
 # Name description:
 # Name of the person to greet
 
-# Example:
-# 'a'..'z' | New-Greeting
-# Greet personz 'a'-'z' and pass the value from the pipeline
-
+# > New-ExternalHelp -OutputPath en-US -Path ./out/New-Greeting.md
 
 # About topics:
-# New-MarkdownAboutHelp -OutputFolder ./out/ -AboutName greeting
+# > New-MarkdownAboutHelp -OutputFolder ./out/ -AboutName greeting

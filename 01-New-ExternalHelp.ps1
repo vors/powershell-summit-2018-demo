@@ -8,5 +8,5 @@ New-ExternalHelp -Path ./New-ExternalHelp.md -OutputPath ./out
 # Preview
 Get-HelpPreview -Path ./out/platyPS-help.xml
 
-# And now on many of md items at once
-New-ExternalHelp -Path ../platyPS/docs/ -OutputPath ./out/ -Force
+# (Optional) And now on many of md items at once
+# New-ExternalHelp -Path ../platyPS/docs/ -OutputPath ./out/ -Force
