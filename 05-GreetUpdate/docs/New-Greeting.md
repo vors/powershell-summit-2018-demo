@@ -26,7 +26,7 @@ Greet people with Hello
 'a'..'z' | New-Greeting
 ```
 
-Greet personz 'a'-'z' and pass the value from the pipeline
+Greet persons 'a'-'z' and pass the value from the pipeline
 
 ## PARAMETERS
 
